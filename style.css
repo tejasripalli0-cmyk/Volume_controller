@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+#volumeSlider {
+    width: 100%;
+}
+
+#volumeValue {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.speaker {
+    font-size: 80px;
+    margin-top: 30px;
+}
