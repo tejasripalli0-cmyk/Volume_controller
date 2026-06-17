@@ -15,11 +15,6 @@ body {
 }
 
 #volumeValue {
-    font-size: 22px;
+    font-size: 24px;
     margin-top: 15px;
-}
-
-.speaker {
-    font-size: 80px;
-    margin-top: 30px;
 }
