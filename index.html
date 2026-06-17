@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volume Control</title>
+    <title>Volume Control with Audio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,17 +11,21 @@
     <div class="container">
         <h1>🔊 Volume Control</h1>
 
+        <audio id="audio" controls>
+            <source src="sample.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+
+        <br><br>
+
         <input
             type="range"
             id="volumeSlider"
             min="0"
             max="100"
-            value="50"
-        >
+            value="50">
 
         <p id="volumeValue">Volume: 50%</p>
-
-        <p>Move the slider to hear the volume change.</p>
     </div>
 
     <script src="script.js"></script>
